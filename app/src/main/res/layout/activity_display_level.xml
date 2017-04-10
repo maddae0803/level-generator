@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.levelgenerator.DisplayLevelActivity"
+    android:background="@android:color/darker_gray"
+    android:backgroundTint="@android:color/background_light">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:background="@android:color/background_light" />
+</RelativeLayout>
